@@ -5,63 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Snap</title>
 </head>
 <body>
-    <nav class="navbar">
+    <div class="navbar">
         <div class="container">
-          <div class="logo">snap</div>
-          <ul class="nav">
-            <li class="arrow-down">
-              Features <img src="images/icon-arrow-down.svg" alt="">
-              <ul class="dropdown-menu">
-                <div class="menu-right">
-                <li > <img src="images/icon-todo.svg" alt=""> Todo List</li>
+            <div class="logo">snap</div>
+                <ul class="nav">
+                    <li class="desktop-features">Features <img src="images/icon-arrow-down.svg" alt=""> </li>
+                    <ul class="desktop-nav">
+                        <li> <img src="images/icon-todo.svg" alt="">Todo List</li>
+                        <li><img src="images/icon-calendar.svg" alt="">Calendar</li>
+                        <li><img src="images/icon-reminders.svg" alt="">Reminders</li>
+                        <li><img src="images/icon-planning.svg" alt="">Planning</li>
+                    </ul>
+                    <li class="desktop-company">Company <img src="images/icon-arrow-down.svg" alt=""> </li>
+                    <ul class="desktop-nav2">
+                        <li>History</li>
+                        <li>Our Team</li>
+                        <li>Blog</li>
+                    </ul>
+                    <li>Careers</li>
+                    <li>About</li>
+                </ul>
+                <div class="nav-right">
+                    <li>Login</li>
+                    <li class="btnn">Register</li>
+                </div>
+            <div class="hamburger"><img src="images/icon-menu.svg" alt=""></div>
+            <div class="hamburger-x"> <img src="images/icon-close-menu.svg" alt=""></div>
+        </div>
+        <div class="overlay"></div>
+        <nav class="mobile-nav">
+            <ul>
+            <li class="features">Features <img src="images/icon-arrow-down.svg" alt=""></li>
+            <ul class="dropdown">
+                <li> <img src="images/icon-todo.svg" alt=""> Todo List</li>
                 <li> <img src="images/icon-calendar.svg" alt=""> Calendar</li>
                 <li> <img src="images/icon-reminders.svg" alt=""> Reminders</li>
                 <li> <img src="images/icon-planning.svg" alt=""> Planning</li>
-              </div>
-              </ul>
-            </li>
-            <li>
-              Company <img src="images/icon-arrow-down.svg" alt="">
-              <ul class="dropdown-menuu">
-                <div=>
-                  <li>History</li>
-                  <li>Our Team</li>
-                  <li>Blog</li>
-                </div=>
-              </ul>
-            </li>
+            </ul>
+            <lic class="company">Company <img src="images/icon-arrow-down.svg" alt=""> </lic>
+            <ul class="dropdown2">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+            </ul>
             <li>Careers</li>
             <li>About</li>
-          </ul>
-          <div class="navbar-right">
-            <ul>
-              <li> Login </li>
-              <div class="btn">Register</div>
             </ul>
-          </div>
+            <ul class="mobile-login">
+            <span >Login</span>
+            <span class="btnn">Register</span>
+            </ul>
+        </nav>
         </div>
-      </nav>
-    <main class="hero-section">
+    <header class="hero-section">
         <div class="container">
-            <div class="hero-left">
-                <h1>Make <br> remote work</h1>
-                <p> Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
-                <div class="btn">Learn More</div>
-                <div class="img">
-                    <img src="images/client-databiz.svg" alt="">
-                    <img src="images/client-audiophile.svg" alt="">
-                    <img src="images/client-meet.svg" alt="">
-                    <img src="images/client-maker.svg" alt="">
-                </div>
+            <div class="image"><img src="images/image-hero-mobile.png" alt=""></div>
+            <div class="image-desktop"> <img src="images/image-hero-desktop.png" alt=""> </div>
+            <div class="text">
+            <h1>Make  <br> Remote Work</h1>
+            <p>Get your team in sync, no matter your location. 
+                Streamline processes, create team rituals and watch productivity soar.</p>
+            <div class="btn">Learn More</div>
+            <div class="logos">
+                <img src="images/client-databiz.svg" alt="">
+                <img src="images/client-audiophile.svg" alt="">
+                <img src="images/client-meet.svg" alt="">
+                <img src="images/client-maker.svg" alt="">
             </div>
-            <div class="hero-right">
-                <img src="images/image-hero-desktop.png" alt="">
             </div>
         </div>
-    </main>
+    </header>
+
     <script src="script.js"></script>
 </body>
 </html>
